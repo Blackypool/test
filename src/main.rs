@@ -1,6 +1,8 @@
-use std::io::{stdout, Write};
+use std::io::{stdin, stdout, Write};
 
 fn main(){
-    stdout().write("Hello Artem!\n".as_bytes()).unwrap();
+    let mut name: String = String::new();
+    stdin().read_line(&mut name).unwrap();
+    stdout().write(format!("Hello {name}!\n").as_bytes()).unwrap();
     stdout().flush().unwrap();
 }

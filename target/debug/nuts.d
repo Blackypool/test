@@ -1,1 +1,1 @@
-/Users/artem888bogdanovmail.ru/Documents/nuts/target/debug/nuts: /Users/artem888bogdanovmail.ru/Documents/nuts/src/main.rs
+D:\Programs\artem\test\target\debug\nuts.exe: D:\Programs\artem\test\src\main.rs
